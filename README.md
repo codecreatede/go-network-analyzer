@@ -1,8 +1,7 @@
 # go-network-devops-systemd
 
-- write the tcp,udp, 4tcp and 6tcp files 
-- timevalues and automatic backup to the destination drive.
-- It will automatically backup all your tcp, udp, 4tcp and 6tcp connections and also the port connections to the containers to the given drive or the user defined folder. 
+- write the tcp,udp, 4tcp and 6tcp files stamped at time-date.
+- create all your tcp, udp, 4tcp and 6tcp connections for any host/container. 
 
 ```
 ➜  go-network-devops-systemd git:(main) ✗ go run main.go -h

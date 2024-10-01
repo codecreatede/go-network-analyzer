@@ -56,7 +56,9 @@ func flagFunc(cmd *cobra.Command, args []string) {
 			log.Fatal(err)
 		}
 		defer file.Close()
-		file.WriteString(string(out))
+		t := time.Now()
+		tstring := t.String()
+		file.WriteString(string(out) + tstring)
 	}
 	if udp == "udp" {
 		out, err := exec.Command("lsof", "-i", "udp").Output()
@@ -68,7 +70,9 @@ func flagFunc(cmd *cobra.Command, args []string) {
 			log.Fatal(err)
 		}
 		defer file.Close()
-		file.WriteString(string(out))
+		t := time.Now()
+		tstring := t.String()
+		file.WriteString(string(out) + tstring)
 	}
 	if tcp4 == "tcp4" {
 		out, err := exec.Command("lsof", "-i", "4tcp").Output()
@@ -80,7 +84,9 @@ func flagFunc(cmd *cobra.Command, args []string) {
 			log.Fatal(err)
 		}
 		defer file.Close()
-		file.WriteString(string(out))
+		t := time.Now()
+		tstring := t.String()
+		file.WriteString(string(out) + tstring)
 	}
 	if tcp6 == "tcp6" {
 		out, err := exec.Command("lsof", "-i", "6tcp").Output()
@@ -88,8 +94,8 @@ func flagFunc(cmd *cobra.Command, args []string) {
 			log.Fatal(err)
 		}
 		t := time.Now()
-		_, month, _ := t.Date()
-		file, err := os.Create("tcp6file.txt" + string(month))
+		tstring := t.String()
+		file, err := os.Create("tcp6file.txt" + tstring)
 		if err != nil {
 			log.Fatal(err)
 		}

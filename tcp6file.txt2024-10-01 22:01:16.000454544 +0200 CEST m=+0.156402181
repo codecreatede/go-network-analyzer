@@ -1,0 +1,11 @@
+COMMAND      PID         USER   FD   TYPE  DEVICE SIZE/OFF NODE NAME
+kdeconnec   2349 gauravsablok   25u  IPv6 1082152      0t0  TCP *:xmsg (LISTEN)
+gitkraken   3188 gauravsablok  118u  IPv6 1087893      0t0  TCP gaurav-sablok.fritz.box:59342->[2606:4700:20::681a:e28]:https (ESTABLISHED)
+gitkraken   3188 gauravsablok  122u  IPv6 1086417      0t0  TCP gaurav-sablok.fritz.box:34134->[2606:4700:20::681a:e7d]:https (ESTABLISHED)
+trunk       5890 gauravsablok   15u  IPv6  383267      0t0  TCP localhost:33403->localhost:48960 (ESTABLISHED)
+trunk       5890 gauravsablok   31u  IPv6   40191      0t0  TCP localhost:33403 (LISTEN)
+trunk       5890 gauravsablok   35u  IPv6   40194      0t0  TCP localhost:44981 (LISTEN)
+thunderbi  90451 gauravsablok   84u  IPv6 1314793      0t0  TCP gaurav-sablok.fritz.box:39616->wo-in-f108.1e100.net:imaps (ESTABLISHED)
+cursor     95185 gauravsablok   28u  IPv6 1323483      0t0  TCP gaurav-sablok.fritz.box:38598->[2606:4700::6812:cf3]:https (ESTABLISHED)
+trunk      96642 gauravsablok   17u  IPv6  383266      0t0  TCP localhost:48960->localhost:33403 (ESTABLISHED)
+firefox   102998 gauravsablok   88u  IPv6 1105372      0t0  TCP gaurav-sablok.fritz.box:56690->[2606:4700:3032::ac43:b7d4]:https (ESTABLISHED)

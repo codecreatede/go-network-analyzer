@@ -17,5 +17,7 @@ Flags:
   -f, --tcp4 string   tcp4 as a flag (default "provide the tcp4")
   -s, --tcp6 string   tcp6 as a flag (default "provide the tcp")
   -u, --udp string    udp as a flag (default "provide the udp")
+
+go run main.go -t tcp 
 ```
 Gaurav Sablok

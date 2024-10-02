@@ -1,7 +1,8 @@
-# go-network-devops-systemd
+# go-network-analyzer
 
 - write the tcp,udp, 4tcp and 6tcp files stamped at time-date.
-- create all your tcp, udp, 4tcp and 6tcp connections for any host/container. 
+- create all your tcp, udp, 4tcp and 6tcp connections for any host/container.
+- the files generated with the go-network-analyzer can be analyzer using my [tcp-analyzer](https://github.com/codecreatede/tcp-analyzer)
 
 ```
 ➜  go-network-devops-systemd git:(main) ✗ go run main.go -h
